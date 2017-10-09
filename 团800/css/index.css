@@ -4,7 +4,16 @@
 	font-size: 12px;
 	/*font-family: "Arial,仿宋体";*/
 }
-
+a{
+	text-decoration: none;
+	color:#333333;
+}
+a:hover{
+	text-decoration:underline;
+}
+ul li{
+	list-style: none;
+}
 
 /*顶部收藏区域*/
 #top_bg{
@@ -23,7 +32,7 @@
 	color:#666666;
 	position:absolute;
 	top:11px;
-	left:304px;
+	left:260px;
 }
 #collect_btn{
 	display:block;
@@ -32,11 +41,35 @@
 	background:url(../images/collection_bg.png);
 	position:absolute;
 	top:9px;
-	left:555px;
+	left:510px;
 	color:pink;
 	text-align:center;
 	line-height:21px;
 }
-
-
+#no_remind_a{
+	color:#007E8C;
+	position:absolute;
+	left:606px;
+	top:15px;
+}
+#close{
+	padding-left:10px;
+	color:#666;
+	position:absolute;
+	top:14px;
+	right:0;
+}
 /*顶部收藏区域结束*/
+
+/*logo+搜索框区域*/
+#logo_search_box{
+	width: 980px;
+	height: 110px;
+	margin:0 auto;
+	border:1px solid pink;
+}
+#logo_search_box .top_menu li{
+	float:left;
+}
+
+/*logo+搜索框区域结束*/
