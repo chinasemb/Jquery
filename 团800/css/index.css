@@ -70,6 +70,26 @@ ul li{
 }
 #logo_search_box .top_menu li{
 	float:left;
+	background: url(../images/line.gif) no-repeat right 4px;
+	padding-right:14px;
+	margin-right:13px;
+	height:20px;
+	line-height: 19px;
 }
+#logo_search_box .top_menu li a{
+	color:#666;
+	display:inline-block;
+	height:19px;/*
+	border:1px solid red;*/
 
+	/*background-color:pink;*/
+}
+#logo_search_box .top_menu li a.has_hide{
+	padding-left: 6px;
+	padding-right: 15px;
+	border-top:1px solid pink;
+	border-left:1px solid pink;
+	border-right:1px solid pink;
+
+}
 /*logo+搜索框区域结束*/
